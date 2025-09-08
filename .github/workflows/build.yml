@@ -44,7 +44,7 @@ jobs:
 
       - name: Copy the JAR to provider directory of keycloak
         run: |
-            cp keycloak/sms-provider/target/keycloak-email-phone-autthenticator-*.jar keycloak/keycloak-15.0.2/providers/
+            cp keycloak/sms-provider/target/keycloak-email-phone-autthenticator-*.jar keycloak-21.1.2/providers/
 
       - name: Extract image tag details
         id: image_vars
